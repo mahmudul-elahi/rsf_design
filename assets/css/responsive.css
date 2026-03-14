@@ -132,15 +132,19 @@
   }
 
   .navbar ul li a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .navbar-brand {
     height: 46px;
   }
 
+  .last-button {
+    margin-top: 12px;
+  }
+
   .navbar ul {
-    gap: 4px;
+    gap: 0px;
     padding-top: 8px;
   }
 
@@ -208,7 +212,7 @@
   }
 
   .product-heading h2 {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .product-heading .view-all-button {
@@ -216,7 +220,7 @@
   }
 
   .products-item h2 {
-    font-size: 36px;
+    font-size: 42px;
     text-align: center;
   }
 
@@ -298,5 +302,30 @@
 
   .logo-footer P {
     font-size: 16px;
+  }
+
+  .product-heading {
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+
+  .system-rantal {
+    padding-block: 50px;
+  }
+
+  .system-rantal h2 {
+    font-size: 32px;
+  }
+
+  .system-rantal .system-image {
+    height: 280px;
+  }
+
+  .system-rantal p {
+    font-size: 18px;
+  }
+  .system-rantal p span {
+    font-size: 18px;
   }
 }
