@@ -502,12 +502,33 @@ body {
   padding: 40px;
 }
 
+.contact-form-section.left h5 {
+  color: #164778;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
 .contact-form-section h3 {
   color: #164778;
   font-size: 40px;
   font-weight: 700;
   line-height: 100%;
   padding-bottom: 24px;
+}
+
+.contact-form-section h6 {
+  color: #8f8e8f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.contact-form-section h4 {
+  color: #2765a5;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .contact-form-section label {
@@ -797,4 +818,79 @@ body {
 }
 /* ******************************
     Product-Details-End
+********************************/
+
+/* ******************************
+    Contact-Bottom-Details-Start
+********************************/
+.section-contact-bottom-left {
+  background: linear-gradient(0deg, #1d61a3 0%, #1d61a3 100%), #2b5696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 60px;
+}
+
+.section-contact-bottom-left ul li {
+  margin-bottom: 50px;
+}
+
+.section-contact-bottom-left ul li .c-icon {
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  color: #1d60a2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-bottom-left ul li .c-detail h5 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 110%;
+  margin-bottom: 12px;
+}
+
+.section-contact-bottom-left ul li .c-detail h6 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 0;
+}
+
+.section-contact-bottom-right {
+  background: url(../img/product-bg.png) no-repeat center/cover;
+}
+
+.section-contact-bottom-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-contact-bottom-right h5 {
+  color: #164778;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.section-contact-bottom-right .c-icon-lg {
+  height: 68px;
+  width: 68px;
+  font-size: 28px;
+}
+
+/* ******************************
+    Contact-Bottom-Details-End
 ********************************/
